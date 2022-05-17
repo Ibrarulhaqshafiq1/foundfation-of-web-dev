@@ -1,0 +1,37 @@
+html,
+body {
+    margin: 0;
+}
+
+ header {
+     background-color: rgb(249, 8, 8);
+     margin-bottom: 10px;
+ }
+ nav {
+     float: right;
+     margin-right: 25px;
+ }
+
+ nav>a{
+     font-size: larger;
+     color: #ffffff;
+     text-decoration: none;
+     margin: 30px;
+     
+ }
+
+nav>a:hover{
+    color: black;
+}
+
+.about-info {
+    border:2px double rgb(0, 255, 68);
+    margin-top: 10px;
+    width:50vw;
+    text-align:center;
+
+
+   
+    
+
+}
