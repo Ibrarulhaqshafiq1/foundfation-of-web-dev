@@ -26,12 +26,44 @@ nav>a:hover{
 
 .about-info {
     border:2px double rgb(0, 255, 68);
-    margin-top: 10px;
+    margin: 0 auto;
     width:50vw;
     text-align:center;
 
+}
 
-   
+
+.photobox {
+    position: relative;
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 80vw;
+    left: 10%;
+    background-color: black;
+    color: white;
+
+}
+
+
+
+
+.photobox div {
+    position: relative;
+    left: 13px;
+    margin: 5px;
+    width: 33.33%;
+    padding: 10px;
+
     
+}
 
+
+
+.col {
+    display: inline-block;
+}
+
+
+.photobox div:nth-child(2){
+    height: 320px;
 }
