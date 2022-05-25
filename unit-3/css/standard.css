@@ -34,36 +34,33 @@ nav>a:hover{
 
 
 .photobox {
-    position: relative;
+   
     margin-top: 20px;
     border: 1px solid black;
     width: 80vw;
     left: 10%;
     background-color: black;
     color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
 
 }
-
-
 
 
 .photobox div {
-    position: relative;
-    left: 13px;
-    margin: 5px;
-    width: 33.33%;
-    padding: 10px;
+    padding: 20px;
+
 
     
-}
-
-
-
-.col {
-    display: inline-block;
-}
+}       
 
 
 .photobox div:nth-child(2){
     height: 320px;
+}
+
+
+.filler-text{
+    line-height: 6;
 }
