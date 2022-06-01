@@ -322,6 +322,14 @@ Buttons
     border-radius: 5px;
     display: inline-block;
     margin: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: .5px;
+    margin: 0;
+    text-transform: uppercase;
+  
+
 }
 
 .btn-alt{
