@@ -407,3 +407,11 @@ Footer
 .primary-footer a:hover {
     color: #a9b2b9;
 }
+
+/*================
+Register
+=================*/
+.why-attend{
+    list-style:square;
+    margin: 0 0 22px
+}
