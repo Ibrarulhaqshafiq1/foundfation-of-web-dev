@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,59 +8,68 @@
     <link rel="stylesheet" href="css/standard.css">
     <title>Form Practice</title>
 </head>
-<body>
 
-    <form action="/login" method="post"> 
+<body>
+    <h2>Create a New Account</h2>
+    <form action="/login" method="post">
         <fieldset>
             <legend>User Info</legend>
             <label for="username">
-                username:
-                <input type="text" name="username" id="username" placeholder="jane_doe@exapmle.com">
+                Username: 
+                <input type="text" name="username" id="username" placeholder="jane_doe@example.com">
             </label>
+
+            <br>
+            <br>
 
             <label for="password">
-                password:
-                <input type="password" name="passsword" id="password"
-                placeholder="123232323">
+                Password: 
+                <input type="password" name="password" id="password" placeholder="********">
             </label>
 
-        
-        <label for="age">
-            Age:
-            <select name="age" id="age">
-                <optgroup label="Adult">
-                    <option>19-55</option>
-                    <option>55+</option>
-                </optgroup>
-                <optgroup label="Teen"></optgroup>
-                <optgroup label="Child">
-                    <option>6-12 yrs</option>
-                </optgroup>
-
-            </select>
-        </label>
-        <br>
-        <br>
-        
-        <label for="about-info">
-            Tell us about yourself:
             <br>
-            <textarea name="about-info" id="about-info">
-                Tell us something exciting!
+            <br>
 
-            </textarea>
-        </label>
+            <label for="age">
+                Age: 
+                <select name="age" id="age">
+                    <optgroup label="Adult">
+                        <option>19-55 yrs</option>
+                        <option>55+ yrs</option>
+                    </optgroup>
+                    <optgroup label="Teen">
+                        <option>13-18 yrs</option>
+                    </optgroup>
+                    <optgroup label="Child">
+                        <option>6-12 yrs</option>
+                    </optgroup>
+                </select>
+            </label>
 
-        </label>
+            <br>
+            <br>
 
-        <input type="cheakbox" name="accept-tos" value="yes"> I agree
-            <a href="fake.html">Term of Services</a>
+            <label for="about-info">
+                Tell us about yourself:
+                <br>
+                    <textarea name="about-info" id="about-info">
+                     Tell us something exciting!
+                    </textarea>
+            </label>
 
-            <input type="submit" value="sign up">
+            <br>
+            <br>
 
+            <input type="checkbox" name="accept-tos" value="yes"> I agree
+                <a href="fake.html">Terms of Services</a>
+
+                <br>
+                <br>
+
+                <input type="submit" value="Sign Up">
         </fieldset>
-
     </form>
-    
+
 </body>
-</html>
+
+</html> 
