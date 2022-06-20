@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays pratice</title>
+
+    <script>
+        //first way to declear an array 
+
+        var colors = []; //created an empty called colors
+
+        colors = ["orange", "red","purple","green","yellow"]; //assinging the "colors" array with string values seperated by commas
+
+        console.log(colors[2]);
+        alert("The third index value in our arry is " + colors [2]);
+
+        colors[2]= "blue";
+        alert("The third index value in our array is now" + colors[2]);
+        //
+        console.log("The lenght of our colors array is " + colors.length);
+
+        //push() mehtode add a value to the end of our array 
+        colors.push("pink");
+        console.log(colors.length) //6
+
+        //an array with different data types
+        var array = ["Ibrar", {age: 20}, 8, function hello(){
+            console.log("Hello World");
+        }];
+        alert(array[0]);
+
+        console.log(colors[0]);
+        console.log(colors[1]);
+        console.log(colors[2]);
+        console.log(colors[3]);
+        console.log(colors[4]);
+
+        //for loop to i
+
+        for(var i = 0; i < colors.length; i++){
+            console.log("color" + i + " is " + colors[i])
+
+        }
+
+        
+
+
+
+
+
+
+        //second way to declear an array 
+        var arrColor = new Array(); //creating an empty called arrColor 
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

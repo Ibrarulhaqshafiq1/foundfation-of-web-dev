@@ -3,64 +3,64 @@ body {
     margin: 0;
 }
 
- header {
-     background-color: rgb(249, 8, 8);
-     margin-bottom: 10px;
- }
- nav {
-     float: right;
-     margin-right: 25px;
- }
+header {
+    background-color: #d08a07;
+    margin-bottom: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
 
- nav>a{
-     font-size: larger;
-     color: #ffffff;
-     text-decoration: none;
-     margin: 30px;
-     
- }
+nav {
+    float: right;
+    margin-right: 25px;
+}
 
-nav>a:hover{
+nav>a {
+    font-size: larger;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 30px;
+}
+
+nav>a:hover {
     color: black;
 }
 
 .about-info {
-    border:2px double rgb(0, 255, 68);
+    border: 2px double #d08a07;
+    width: 40vw;
+    text-align: center;
     margin: 0 auto;
-    width:50vw;
-    text-align:center;
-
 }
 
-
 .photobox {
-   
-    margin-top: 20px;
+    margin-top: 15px;
     border: 1px solid black;
     width: 80vw;
-    left: 10%;
+    padding: 10px;
     background-color: black;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     position: relative;
-
+    left: 10%;
+    z-index: -1;
 }
-
 
 .photobox div {
     padding: 20px;
-
-
-    
-}       
-
-
-.photobox div:nth-child(2){
-    height: 320px;
 }
 
+.photobox div:nth-child(2) {
+    height: 200px;
+}
 
-.filler-text{
-    line-height: 6;
+.filler-text {
+    line-height: 5;
+}
+
+#home {
+    margin-top: 10%;
 }
